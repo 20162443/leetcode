@@ -5,6 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class bfs {
+
     public static void main(String[] args) {
         group g =new group(5,10);
         g.nodes[0]=new Node(1);
