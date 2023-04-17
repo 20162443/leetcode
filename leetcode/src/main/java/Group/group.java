@@ -9,7 +9,6 @@ public class group {
         nodes=new Node[n1];
         edges=new Edge[n2];
     }
-
 }
 class Node{
     public  int value;

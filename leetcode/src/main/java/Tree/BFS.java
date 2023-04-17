@@ -35,7 +35,6 @@ public class BFS {
                 list2=new ArrayList<>();
                 p=c;
             }
-
         }
         return list;
     }

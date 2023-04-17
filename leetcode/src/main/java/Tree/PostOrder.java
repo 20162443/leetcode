@@ -11,9 +11,7 @@ public class PostOrder {
         Stack<TreeNode2> stack=new Stack<TreeNode2>();
         TreeNode2 p=root;
         TreeNode2 t=null;
-        int i=0;
         while(!stack.isEmpty()||p!=null){
-            i++;
             if(p!=null){
                 stack.push(p);
                 p=p.left;
